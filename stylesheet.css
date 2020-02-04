@@ -1,0 +1,134 @@
+body {
+  background-color:#A2B3A1;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+  font-style: oblique;
+  color: white
+}
+
+
+
+#navlist{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #A2B3A1;
+  text-align: center;
+}
+
+#navlist li{
+  display: inline;
+} 
+
+#navlist a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: underline;
+  font-size: 24px;
+  color: white
+}
+
+#homepic {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  z-index: -1;
+}
+
+#pic{
+  position: absolute;
+  top: 300px;
+  right: 10px;
+  width: 20%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.city {
+  position: absolute;
+  right: 10px;
+  width: 700px;
+  height: 200px;
+  border: 5px solid white;
+  padding: 30px;
+}
+
+.city h3 {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+.city p{
+  font-size: 24px;
+  color: white;
+}
+
+.major {
+  position: absolute;
+  right: 10px;
+  top: 400px;
+  width: 250px;
+  height: 300px;
+  border: 5px solid white;
+  padding: 30px;
+}
+
+.major h3{
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+.major p{
+  font-size: 24px;
+  color: white;
+}
+
+.hobbies {
+  position: absolute;
+  right: 350px;
+  top: 470px;
+  width: 300px;
+  height: 230px;
+  border: 5px solid white;
+  padding: 30px;
+}
+
+.hobbies h3{
+  text-align: center;
+  font-size: 24px;
+  color: white;
+} 
+
+.hobbies li{
+  font-size: 24px;
+  color: white;
+}
+
+caption {
+  font-size: 36px;
+  color: white;
+}
+
+th {
+  border: 3px solid white;
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+  color: white
+}
+
+.table a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: underline;
+  font-size: 24px;
+  color: white
+}
+
+  
